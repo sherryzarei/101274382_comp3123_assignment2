@@ -20,7 +20,7 @@ export default function Signup() {
     }
 
     try {
-      const res = await axios.post("http://localhost:3000/api/v1/user/signup", {
+      const res = await axios.post("https://one01274382-comp3123-assignment2-1.onrender.com/api/v1/user/signup", {
         username,
         email,
         password,
