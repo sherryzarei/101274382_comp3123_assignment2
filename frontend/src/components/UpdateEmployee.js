@@ -38,7 +38,7 @@ export default function UpdateEmployee() {
         return;
       }
 
-      const response = await fetch(`http://localhost:3000/api/v1/emp/employees/${employee._id}`, {
+      const response = await fetch(`https://one01274382-comp3123-assignment2-1.onrender.com/api/v1/emp/employees/${employee._id}`, {
         method: "PUT",
         headers: {
           "Content-Type": "application/json",
