@@ -20,7 +20,7 @@ export default function EmployeeList() {
         return;
       }
 
-      const response = await fetch("http://localhost:3000/api/v1/emp/employees", {
+      const response = await fetch("https://one01274382-comp3123-assignment2-1.onrender.com/api/v1/emp/employees", {
         headers: {
           Authorization: `Bearer ${token}`,
         },
@@ -60,7 +60,7 @@ export default function EmployeeList() {
         return;
       }
 
-      const response = await fetch(`http://localhost:3000/api/v1/emp/employees?eid=${employeeId}`, {
+      const response = await fetch(`https://one01274382-comp3123-assignment2-1.onrender.com/api/v1/emp/employees?eid=${employeeId}`, {
         method: "DELETE",
         headers: {
           Authorization: `Bearer ${token}`,
